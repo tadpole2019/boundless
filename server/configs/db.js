@@ -44,11 +44,11 @@ const sequelize = new Sequelize(
 sequelize
   .authenticate()
   .then(() => {
-    console.log('INFO - 資料庫已連線 Database connected.'.bgGreen)
+    console.log('INFO - 資料庫已連線 Database connected.')
   })
   .catch((error) => {
     console.log(
-      'ERROR - 無法連線至資料庫 Unable to connect to the database.'.bgRed
+      'ERROR - 無法連線至資料庫 Unable to connect to the database.'
     )
     console.error(error)
   })
@@ -67,7 +67,6 @@ await sequelize.sync({})
 
 console.log(
   'INFO - 所有模型已完成同步化(如果表不存在建立該表) All models were synchronized successfully.'
-    .bgGreen
 )
 
 // 輸出模組
