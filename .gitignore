@@ -1,5 +1,6 @@
 .DS_Store
 /client/node_modules
+/client/.next/cache
 /server/node_modules
 server/.vscode/settings.json
 server-test/.vscode/settings.json
