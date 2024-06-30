@@ -1,8 +1,8 @@
 # boundless
 
-*前端client:reactjs(next框架)
-*後端server:nodejs(express框架)
-*資料庫:XAMPP
+* 前端client:reactjs(next框架)
+* 後端server:nodejs(express框架)
+* 資料庫:XAMPP
 
 1. 有SQL檔應先匯入
 2. 設置.env檔(SQL伺服器帳密)
